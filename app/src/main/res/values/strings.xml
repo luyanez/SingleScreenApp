@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Yanez Swimming Classes</string>
+    <string name="summary">One of the best swimming classes program of the region.</string>
+    <string name="contact">Contact</string>
+    <string name="phone_number">+ 915 - 303 - 6789</string>
+    <string name="address">555 South Mesa Hills Dr, El Paso TX 79902</string>
+    <string name="email">yanezclasses@gmail.com</string>
+    <string name="twitter">\@yanezSwimming_classes</string>
+    <string name="business_hours">Monday - Friday 6am to 8pm\nSat 7am to 4pm</string>
+    <string name="business_hours_text">Business Hours</string>
+</resources>

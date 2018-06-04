@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:src="@drawable/swimming_class"
+            android:layout_width="550dp"
+            android:layout_height="300dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            />
+
+        <TextView
+            android:id="@+id/IntroId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView"
+            android:layout_centerVertical="true"
+            android:text="@string/summary"
+            android:textSize="19sp"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:id="@+id/ContactText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/contact"
+            android:textSize="24sp"
+            android:layout_below="@id/IntroId"
+            android:layout_marginStart="16dp"/>
+
+        <ImageView
+            android:id="@+id/Phone"
+            android:src="@drawable/phone"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/ContactText"
+            />
+        <TextView
+            android:id="@+id/Phone_Number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/phone_number"
+            android:layout_toEndOf="@id/Phone"
+            android:layout_below="@id/ContactText"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="14dp"
+            android:textSize="16sp"
+            />
+
+        <ImageView
+            android:id="@+id/Address"
+            android:src="@drawable/police_station"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/Phone"
+            />
+        <TextView
+            android:id="@+id/Address_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/address"
+            android:layout_toEndOf="@id/Phone"
+            android:layout_below="@id/Phone_Number"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="14dp"
+            android:textSize="16sp"
+            />
+
+        <ImageView
+            android:id="@+id/Email"
+            android:src="@drawable/email"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="13dp"
+            android:layout_below="@id/Address"
+            />
+        <TextView
+            android:id="@+id/Email_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/email"
+            android:layout_toEndOf="@id/Phone"
+            android:layout_below="@id/Address_text"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="14dp"
+            android:textSize="16sp"
+            />
+
+        <ImageView
+            android:id="@+id/Twitter"
+            android:src="@drawable/twitter"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="13dp"
+            android:layout_below="@id/Email"
+            />
+        <TextView
+            android:id="@+id/Twitter_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/twitter"
+            android:layout_toEndOf="@id/Phone"
+            android:layout_below="@id/Email_text"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="14dp"
+            android:textSize="16sp"
+            />
+
+        <TextView
+            android:id="@+id/Business_Hours_Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/business_hours_text"
+            android:layout_below="@id/Twitter"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="14dp"
+            android:textSize="16sp"
+            />
+
+        <TextView
+            android:id="@+id/Business_Hours"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/business_hours"
+            android:layout_toEndOf="@id/Phone"
+            android:layout_below="@id/Business_Hours_Text"
+            android:layout_marginTop="10dp"
+            android:textSize="16sp"
+            />
+    </RelativeLayout>
+</ScrollView>
